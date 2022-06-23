@@ -91,6 +91,18 @@ nav .navbar-brand span {
 
 
  /*=========== present section starts  ==========*/
+ .word .btn1{
+  border-radius: 100px;
+  font-size: 120%;
+  width: 30%;
+}
+@media (max-width:779px) {
+  .word .btn1{
+    width: 80%;
+    
+  }
+}
+
 
  /*============ present section ends  ==========*/
 
@@ -98,10 +110,15 @@ nav .navbar-brand span {
 
 
  /*=========== app section starts  ==========*/
+ @media (max-width:780px) {
+  .box{
+      margin-bottom: 20px;
+  }
+}
+
+
 
  /*============ app section ends  ==========*/
-
-
 
 
  /*=========== pricing section starts  ==========*/
