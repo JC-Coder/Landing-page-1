@@ -41,6 +41,44 @@ nav .navbar-brand span {
 
  /*=========== hero section starts  ==========*/
 
+ .hero {
+  min-height: 90vh;
+  background-image: url(./images/home-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-color: #061539f2;
+  color: white;
+}
+
+.hero .row {
+  min-height: 100vh;
+  align-items: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.hero button {
+  padding: 1rem;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1.3rem;
+  border-radius: 50px;
+  margin-top: 1rem;
+  background-color: #1dc9e3;
+  border: none;
+}
+
  /*============ hero section ends  ==========*/
 
 
