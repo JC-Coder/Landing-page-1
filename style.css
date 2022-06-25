@@ -273,7 +273,8 @@ img {
   padding-left: 1rem;
   border-bottom: 2px solid beige;
   text-align: left;
-  width: 33rem;
+  width: 100%;
+  max-width: 33rem;
 }
 
 .forms-control {
